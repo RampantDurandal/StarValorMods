@@ -8,7 +8,7 @@ Allows you to craft upgrade kits to bring gear up to legendary (gold) quality. T
 
 You can configure how many components scrapping a piece of gear gives (a random number from minimum to maximum), as well as how many are required to craft a kit. After running the game with the mod once, edit the durandal.LegendaryUpgradeKits.cfg file in your BepInEx/config folder.
 
-Compatability notes:
+Compatibility notes:
 - Works with Components From Scrapping; both mods will give components when scrapping a legendary.
 - Works with Mod Any Item; however, if you change the config for my mod, you'll need to delete the generated .itemmod files or they will overwrite your config changes.
 
