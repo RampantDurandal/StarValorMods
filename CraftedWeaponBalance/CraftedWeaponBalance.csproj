@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2C8DCF8-B097-458F-B271-9ECBC5C6ED06}</ProjectGuid>
+    <ProjectGuid>{E791CDC1-AD59-40A1-8C00-E1528010B8B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dur_LegendaryUpgradeKits</RootNamespace>
-    <AssemblyName>Dur_LegendaryUpgradeKits</AssemblyName>
+    <RootNamespace>CraftedWeaponBalance</RootNamespace>
+    <AssemblyName>CraftedWeaponBalance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,16 +32,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\Star Valor_Data\Managed\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp-firstpass_publicized">
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\Star Valor_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    <Reference Include="Assembly-CSharp_publicized">
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,19 +48,21 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\Star Valor_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Steam\steamapps\common\Star Valor\Star Valor_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LegendaryUpgradeKitsPlugin.cs" />
+    <Compile Include="MonoBehaviours\CraftedWeaponBalanceComponent.cs" />
+    <Compile Include="Patches\PlayerPatches.cs" />
+    <Compile Include="CraftedWeaponBalancePlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ModUtils.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy /q/y/i "$(TargetPath)" "E:\Mods\Star Valor\MyMods\" /E /H /C</PostBuildEvent>
+    <PostBuildEvent>mkdir "E:\Games\Steam\steamapps\common\SubnauticaZero\BepInEx\plugins\$(TargetName)"
+xcopy /q/y/i "$(TargetPath)" "E:\Games\Steam\steamapps\common\SubnauticaZero\BepInEx\plugins\$(TargetName)" /E /H /C</PostBuildEvent>
   </PropertyGroup>
 </Project>

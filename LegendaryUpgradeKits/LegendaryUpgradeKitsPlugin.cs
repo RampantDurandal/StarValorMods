@@ -38,6 +38,7 @@ namespace Dur_LegendaryUpgradeKits
             NumberOfComponentsOnScrapMaximum = Config.Bind("General Settings", "NumberOfComponentsOnScrapMaximum", 1, "When scrapping, recieve at most this many components.");
 
             Harmony.CreateAndPatchAll(typeof(LegendaryUpgradeKitsPlugin));
+            Log = Logger;
         }
 
         [HarmonyPatch(typeof(ItemDB), "LoadDatabaseForce")]
