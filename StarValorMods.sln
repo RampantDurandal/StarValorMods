@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dur_LegendaryUpgradeKits", "LegendaryUpgradeKits\Dur_LegendaryUpgradeKits.csproj", "{E2C8DCF8-B097-458F-B271-9ECBC5C6ED06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegendaryUpgradeKits", "LegendaryUpgradeKits\LegendaryUpgradeKits.csproj", "{E2C8DCF8-B097-458F-B271-9ECBC5C6ED06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dur_CraftedWeaponSize", "Dur_CraftedWeaponSize\Dur_CraftedWeaponSize.csproj", "{A95863E5-F781-4DD4-8C68-5EEBAC64B7AE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dur_CraftedWeaponBalance", "Dur_CraftedWeaponBalance\Dur_CraftedWeaponBalance.csproj", "{46ED7C16-318B-40CF-8078-92BBBE970529}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CraftedWeaponSize", "CraftedWeaponSize\CraftedWeaponSize.csproj", "{A95863E5-F781-4DD4-8C68-5EEBAC64B7AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{A95863E5-F781-4DD4-8C68-5EEBAC64B7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A95863E5-F781-4DD4-8C68-5EEBAC64B7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A95863E5-F781-4DD4-8C68-5EEBAC64B7AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46ED7C16-318B-40CF-8078-92BBBE970529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46ED7C16-318B-40CF-8078-92BBBE970529}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46ED7C16-318B-40CF-8078-92BBBE970529}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46ED7C16-318B-40CF-8078-92BBBE970529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

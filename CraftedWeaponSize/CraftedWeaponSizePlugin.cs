@@ -2,7 +2,7 @@
 using BepInEx.Logging;
 using HarmonyLib;
 
-namespace Dur_CraftedWeaponSize
+namespace CraftedWeaponSize
 {
     [BepInPlugin(MyGUID, PluginName, VersionString)]
     public class CraftedWeaponSizePlugin : BaseUnityPlugin

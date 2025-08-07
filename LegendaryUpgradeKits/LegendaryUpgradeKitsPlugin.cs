@@ -6,7 +6,7 @@ using UnityEngine;
 using System.Reflection;
 using System.Collections.Generic;
 
-namespace Dur_LegendaryUpgradeKits
+namespace LegendaryUpgradeKits
 {
     [BepInPlugin(MyGUID, PluginName, VersionString)]
     public class LegendaryUpgradeKitsPlugin : BaseUnityPlugin
