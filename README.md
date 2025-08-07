@@ -11,3 +11,5 @@ You can configure how many components scrapping a piece of gear gives (a random 
 Compatability notes:
 - Works with Components From Scrapping; both mods will give components when scrapping a legendary.
 - Works with Mod Any Item; however, if you change the config for my mod, you'll need to delete the generated .itemmod files or they will overwrite your config changes.
+
+Big thanks to MartinC (https://github.com/MPC88) and LunaLycan (https://github.com/LunaLycan287/StarValorMods) whose code I modeled much of mine off of!
