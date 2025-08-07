@@ -13,3 +13,8 @@ Compatability notes:
 - Works with Mod Any Item; however, if you change the config for my mod, you'll need to delete the generated .itemmod files or they will overwrite your config changes.
 
 Big thanks to MartinC (https://github.com/MPC88) and LunaLycan (https://github.com/LunaLycan287/StarValorMods) whose code I modeled much of mine off of!
+
+## Crafted Weapon Size
+Gives crafted weapons an increase in projectile size/beam width based on their weapon space. The increase is +50% of base size at weapon space 4, and every 4 space thereafter. In addition, for beam weapons, width and visual effects increase slightly more at sizes 4, 8, and 12. This makes a crafted 12-space beam mounted in a spinal mount look very similar in size to a Capital Laser Beam Mk.II or a Venghi Death Ray.
+
+Props to MartinC (https://github.com/MPC88) and LadyHawk (https://github.com/Zaravira) for their helpful suggestions while I struggled with this!
